@@ -1,0 +1,22 @@
+modules:
+  jira:globalPage:
+    - key: to-do-list-example-hello-world-page
+      resource: main
+      resolver:
+        function: resolver
+      title: To-Do list example
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/to-do-ui/dist
+app:
+  runtime:
+    name: nodejs22.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/fa3afe0d-54d5-4d31-a619-06eb4d03e78d
+permissions:
+  scopes:
+    - storage:app

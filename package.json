@@ -1,0 +1,26 @@
+{
+  "name": "jira-global-page-custom-ui",
+  "version": "1.1.16",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint \"src/**/*.ts\"",
+    "lint:fix": "eslint \"src/**/*.ts\" --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "@types/node": "^24.9.2",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2"
+  },
+  "dependencies": {
+    "@forge/api": "^6.1.5",
+    "@forge/kvs": "^1.1.0",
+    "@forge/resolver": "^1.7.1",
+    "uuid": "^13.0.0"
+  }
+}

@@ -2,7 +2,7 @@ import { TodoProvider } from "./TodoContext";
 import AddTodoForm from "./components/AddTodoForm";
 import ToDoList from "./components/ToDoList";
 import { useTodos } from "./hooks/useTodosContext";
-import LoadingIndicator from "../../components/LoadingIndicator";
+import LoadingIndicator from "../../common/LoadingIndicator";
 
 const TodoListPageContent = () => {
   const { isLoading } = useTodos();

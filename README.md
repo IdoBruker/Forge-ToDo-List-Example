@@ -1,6 +1,6 @@
-# Forge Hello World
+# Forge To-Do list example
 
-This project contains a Forge app written in JavaScript that displays `Hello World!` in a Jira global page.
+This project contains a Forge app written in TypeScript that displays `To-Do list` in a Jira global page.
 
 See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
 
@@ -14,14 +14,14 @@ See [Set up Forge](https://developer.atlassian.com/platform/forge/set-up-forge/)
 npm install
 ```
 
-- Install dependencies (inside of the `static/hello-world` directory):
+- Install dependencies (inside of the `static/to-do-ui` directory):
 ```
 npm install
 ```
 
-- Modify your app by editing the files in `static/hello-world/src/`.
+- Modify your app by editing the files in `static/to-do-ui/src/`.
 
-- Build your app (inside of the `static/hello-world` directory):
+- Build your app (inside of the `static/to-do-ui` directory):
 ```
 npm run build
 ```
